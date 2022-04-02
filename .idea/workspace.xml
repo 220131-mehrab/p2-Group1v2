@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="762a71ff-d528-4e56-b9f8-dc38c6d87cea" name="Changes" comment="New, correct, beginnings.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,7 +63,7 @@
       <recent name="C:\Users\Minec\Downloads\p2-Group1\backend" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server">
+  <component name="RunManager">
     <configuration name="P2Group1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="p2-Group1.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.revature.p2Group1.P2Group1Application" />
@@ -76,10 +82,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="npm.Angular CLI Server" />
-      <item itemvalue="Spring Boot.P2Group1Application" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

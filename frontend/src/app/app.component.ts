@@ -108,7 +108,8 @@ let megamanJumpingFrameCount = 0;
 const STAGE_COLS = 13;
 const STAGE_ROWS = 13;
 let stageImage: CanvasImageSource;
-let elecmanStageRoom1 =  [2, 6, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+let elecmanStageRoom1 =
+ [2, 6, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
   2, 4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
   2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
   2, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 2,
