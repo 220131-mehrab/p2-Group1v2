@@ -1007,7 +1007,6 @@ function DrawAll() {
       headY = 10;
       speedX = 0;
       speedY = 0;
-
       appleX = 5;
       appleY = 5;
       length = 1;
