@@ -22,12 +22,27 @@
     <img id="wilyLogoBR" src="http://agamedesigner.info/appImages/AngularTesting/wilyLogoBR.png"><br>
     <img id="wilyLogoTL" src="http://agamedesigner.info/appImages/AngularTesting/wilyLogoTL.png"><br>
     <img id="wilyLogoTR" src="http://agamedesigner.info/appImages/AngularTesting/wilyLogoTR.png"><br>
+    <img id="darkGoldCrossHair" src="http://agamedesigner.info/appImages/AngularTesting/darkGoldCrossHair.png"><br>
+    <img id="goldCrossHair" src="http://agamedesigner.info/appImages/AngularTesting/goldCrossHair.png"><br>
+
   </div>
   <div>
     <app-game-list></app-game-list>
-    <div class="canvas">
-      <canvas id="SampleGame1" width="400" height="400"></canvas>
-    </div>
+    <table>
+      <tr>
+        <td>
+          <div class="canvas" id="canvasDiv">
+            <canvas id="SampleGame1" width="400" height="400"></canvas>
+          </div>
+        </td>
+        <td>
+          <div class="gameRules" id="gameRules">
+            <span class="center" *ngIf="gameChoice">{{ products[gameChoice-1].name }}</span><br>
+            <span *ngIf="gameChoice">{{ products[gameChoice-1].rules }}</span>
+          </div>
+        </td>
+      </tr>
+    </table>
   </div>
 </div>
 

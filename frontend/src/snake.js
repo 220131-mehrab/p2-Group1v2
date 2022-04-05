@@ -35,11 +35,13 @@ function draw() { // Gameplay loop.
   drawApple();
   drawSnake();
   drawScore();
-  if (score > 2) speed = 10;
-  if (score > 4) speed = 12;
+  if (score > 3) speed = 10;
+  if (score > 5) speed = 12;
   if (score > 7) speed = 14;
   if (score > 9) speed = 16;
-  if (score > 12) speed = 20;
+  if (score > 12) speed = 18;
+  if (score > 15) speed = 20;
+  if (score > 19) speed = 24;
   setTimeout(draw, 1000/speed);
 }
 
