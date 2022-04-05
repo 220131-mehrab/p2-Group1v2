@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="762a71ff-d528-4e56-b9f8-dc38c6d87cea" name="Changes" comment="New, correct, beginnings.">
+    <list default="true" id="762a71ff-d528-4e56-b9f8-dc38c6d87cea" name="Changes" comment="pushed snake game files to the hub">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/snake.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/snake.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +24,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,8 +53,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="exceleditor.install" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -50,10 +66,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Users\Minec\Downloads\p2-Group1\frontend\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Minec\Downloads\p2-Group1\frontend\src" />
       <recent name="C:\Users\Minec\Downloads\p2-Group1\backend" />
     </key>
   </component>
@@ -90,6 +108,15 @@
       <option name="presentableId" value="Default" />
       <updated>1648666424288</updated>
       <workItem from="1648666425498" duration="3151000" />
+      <workItem from="1648673858437" duration="243000" />
+      <workItem from="1648675177881" duration="33000" />
+      <workItem from="1648675227496" duration="22442000" />
+      <workItem from="1648772422725" duration="12000" />
+      <workItem from="1648772451236" duration="454000" />
+      <workItem from="1648773034258" duration="65000" />
+      <workItem from="1648774563406" duration="42000" />
+      <workItem from="1648774778667" duration="17241000" />
+      <workItem from="1648829816748" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring to include spring backend tool">
       <created>1648666809008</created>
@@ -119,7 +146,56 @@
       <option name="project" value="LOCAL" />
       <updated>1648669565611</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New, correct, beginnings.">
+      <created>1648674042729</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648674042729</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created a README.md and filled it with all current details.">
+      <created>1648679828005</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648679828005</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Minor updates to README.md to fix typos and grammatical errors">
+      <created>1648710909470</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648710909470</updated>
+    </task>
+    <task id="LOCAL-00008" summary="More minor updates to README.md">
+      <created>1648711748709</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648711748709</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Began adding comments throughout the code">
+      <created>1648761691656</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648761691656</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Created a snake game, began converting it to typescript.">
+      <created>1648790988515</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648790988515</updated>
+    </task>
+    <task id="LOCAL-00011" summary="pushed snake game files to the hub">
+      <created>1648793893651</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648793893651</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +217,12 @@
     <MESSAGE value="refactoring to include spring backend tool" />
     <MESSAGE value="syncing files with our first attempt" />
     <MESSAGE value="New, correct, beginnings." />
-    <option name="LAST_COMMIT_MESSAGE" value="New, correct, beginnings." />
+    <MESSAGE value="Created a README.md and filled it with all current details." />
+    <MESSAGE value="Minor updates to README.md to fix typos and grammatical errors" />
+    <MESSAGE value="More minor updates to README.md" />
+    <MESSAGE value="Began adding comments throughout the code" />
+    <MESSAGE value="Created a snake game, began converting it to typescript." />
+    <MESSAGE value="pushed snake game files to the hub" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushed snake game files to the hub" />
   </component>
 </project>
